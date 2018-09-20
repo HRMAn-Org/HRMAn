@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010%%00010import javax.swing.JOptionPane;%%00010import javax.swing.JFrame;"/>
+<entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
+<entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010%%00010if (c_Analysis_type1==2){%%00010if (c_Scaling==1){%%00010%%00010String test1= JOptionPane.showInputDialog(&quot;Please enter your pixel size (Just the value in um). \n1 pixel = &quot;);%%00010double input = Double.parseDouble(test1);%%00010%%00010        double Area = c_Area*input*input;%%00010%%00009%%00009out_Area = Area;%%00010%%00009%%00009double SEM_Area = c_SEMArea*input*input;%%00010%%00009%%00009out_SEMArea = SEM_Area;%%00010%%00009%%00009double Peri = c_Perimeter*input;%%00010%%00009%%00009out_Perimeter = Peri;%%00010%%00009%%00009double SEM_Peri = c_SEMPerimeter*input;%%00010%%00009%%00009out_SEMPerimeter = SEM_Peri;%%00010%%00009%%00009double Area_Co = c_Area_Colocalisation*input*input;%%00010%%00009%%00009out_Area_Colocalisation = Area_Co;%%00010%%00009%%00009double SEM_Area_Co = c_SEMArea_Colocalisation*input*input;%%00010%%00009%%00009out_SEMArea_Colocalisation = SEM_Area_Co;%%00010%%00009%%00009double Peri_Co = c_Perimeter_Colocalisation*input;%%00010%%00009%%00009out_Perimeter_Colocalisation = Peri_Co;%%00010%%00009%%00009double SEM_Peri_Co = c_SEMPerimeter_Colocalisation*input;%%00010%%00009%%00009out_SEMPerimeter_Colocalisation = SEM_Peri_Co;%%00010%%00009%%00009double dist = c_MeanDistancetoNucleus*input;%%00010%%00009%%00009out_MeanDistancetoNucleus = dist;%%00010%%00009%%00009double SEM_dist = c_SEMDistance*input;%%00010%%00009%%00009out_SEMDistance = SEM_dist;%%00010}%%00010else {%%00010%%00009out_Area = c_Area;%%00010%%00009out_SEMArea = c_SEMArea;%%00010%%00009out_Perimeter = c_Perimeter;%%00010%%00009out_SEMPerimeter = c_SEMPerimeter;%%00010%%00009out_Area_Colocalisation = c_Area_Colocalisation;%%00010%%00009out_SEMArea_Colocalisation = c_SEMArea_Colocalisation;%%00010%%00009out_Perimeter_Colocalisation = c_Perimeter_Colocalisation;%%00010%%00009out_SEMPerimeter_Colocalisation = c_SEMPerimeter_Colocalisation;%%00010%%00009out_MeanDistancetoNucleus = c_MeanDistancetoNucleus;%%00010%%00009out_SEMDistance = c_SEMDistance;%%00009%%00010}%%00010}%%00010else{%%00010if (c_Scaling==1){%%00010%%00010String test1= JOptionPane.showInputDialog(&quot;Please enter your pixel size (Just the value in um). \n1 pixel = &quot;);%%00010double input = Double.parseDouble(test1);%%00010%%00010        double Area = c_Area*input*input;%%00010%%00009%%00009out_Area = Area;%%00010%%00009%%00009double SEM_Area = c_SEMArea*input*input;%%00010%%00009%%00009out_SEMArea = SEM_Area;%%00010%%00009%%00009double Peri = c_Perimeter*input;%%00010%%00009%%00009out_Perimeter = Peri;%%00010%%00009%%00009double SEM_Peri = c_SEMPerimeter*input;%%00010%%00009%%00009out_SEMPerimeter = SEM_Peri;%%00010%%00009%%00009double dist = c_MeanDistancetoNucleus*input;%%00010%%00009%%00009out_MeanDistancetoNucleus = dist;%%00010%%00009%%00009double SEM_dist = c_SEMDistance*input;%%00010%%00009%%00009out_SEMDistance = SEM_dist;%%00010}%%00010else {%%00010%%00009out_Area = c_Area;%%00010%%00009out_SEMArea = c_SEMArea;%%00010%%00009out_Perimeter = c_Perimeter;%%00010%%00009out_SEMPerimeter = c_SEMPerimeter;%%00010%%00009out_MeanDistancetoNucleus = c_MeanDistancetoNucleus;%%00010%%00009out_SEMDistance = c_SEMDistance;%%00009%%00010}%%00009%%00010}"/>
+<config key="jarFiles">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="outCols">
+<entry key="array-size" type="xint" value="10"/>
+<config key="0">
+<entry key="Name" type="xstring" value="Area"/>
+<entry key="JavaName" type="xstring" value="out_Area"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="1">
+<entry key="Name" type="xstring" value="SEM Area"/>
+<entry key="JavaName" type="xstring" value="out_SEMArea"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="2">
+<entry key="Name" type="xstring" value="Perimeter"/>
+<entry key="JavaName" type="xstring" value="out_Perimeter"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="3">
+<entry key="Name" type="xstring" value="SEM Perimeter"/>
+<entry key="JavaName" type="xstring" value="out_SEMPerimeter"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="4">
+<entry key="Name" type="xstring" value="Area_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="out_Area_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="5">
+<entry key="Name" type="xstring" value="SEM Area_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="out_SEMArea_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="6">
+<entry key="Name" type="xstring" value="Perimeter_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="out_Perimeter_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="7">
+<entry key="Name" type="xstring" value="SEM Perimeter_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="out_SEMPerimeter_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="8">
+<entry key="Name" type="xstring" value="Mean Distance to Nucleus"/>
+<entry key="JavaName" type="xstring" value="out_MeanDistancetoNucleus"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+<config key="9">
+<entry key="Name" type="xstring" value="SEM Distance"/>
+<entry key="JavaName" type="xstring" value="out_SEMDistance"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+<entry key="replaceExisting" type="xboolean" value="true"/>
+</config>
+</config>
+<config key="outVars">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="inCols">
+<entry key="array-size" type="xint" value="12"/>
+<config key="0">
+<entry key="Name" type="xstring" value="Scaling?"/>
+<entry key="JavaName" type="xstring" value="c_Scaling"/>
+<entry key="JavaType" type="xstring" value="java.lang.Integer"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(IntValue,class java.lang.Integer,Integer)"/>
+</config>
+<config key="1">
+<entry key="Name" type="xstring" value="Area"/>
+<entry key="JavaName" type="xstring" value="c_Area"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="2">
+<entry key="Name" type="xstring" value="SEM Area"/>
+<entry key="JavaName" type="xstring" value="c_SEMArea"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="3">
+<entry key="Name" type="xstring" value="Perimeter"/>
+<entry key="JavaName" type="xstring" value="c_Perimeter"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="4">
+<entry key="Name" type="xstring" value="SEM Perimeter"/>
+<entry key="JavaName" type="xstring" value="c_SEMPerimeter"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="5">
+<entry key="Name" type="xstring" value="Area_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="c_Area_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="6">
+<entry key="Name" type="xstring" value="SEM Area_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="c_SEMArea_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="7">
+<entry key="Name" type="xstring" value="Perimeter_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="c_Perimeter_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="8">
+<entry key="Name" type="xstring" value="SEM Perimeter_Colocalisation"/>
+<entry key="JavaName" type="xstring" value="c_SEMPerimeter_Colocalisation"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="9">
+<entry key="Name" type="xstring" value="Mean Distance to Nucleus"/>
+<entry key="JavaName" type="xstring" value="c_MeanDistancetoNucleus"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="10">
+<entry key="Name" type="xstring" value="SEM Distance"/>
+<entry key="JavaName" type="xstring" value="c_SEMDistance"/>
+<entry key="JavaType" type="xstring" value="java.lang.Double"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+</config>
+<config key="11">
+<entry key="Name" type="xstring" value="Analysis_type (#1)"/>
+<entry key="JavaName" type="xstring" value="c_Analysis_type1"/>
+<entry key="JavaType" type="xstring" value="java.lang.Integer"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(IntValue,class java.lang.Integer,Integer)"/>
+</config>
+</config>
+<config key="inVars">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="version" type="xstring" value="version 1.x"/>
+<entry key="templateUUID" type="xstring" isnull="true" value=""/>
+<entry key="runOnExecute" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="The column &quot;Area&quot; is not found in the input table.%%00010The column &quot;SEM Area&quot; is not found in the input table.%%00010The column &quot;Perimeter&quot; is not found in the input table.%%00010The column &quot;SEM Perimeter&quot; is not found in the input table.%%00010The column &quot;Area_Colocalisation&quot; is not found in the input table.%%00010The column &quot;SEM Area_Colocalisation&quot; is not found in the input table.%%00010The column &quot;Perimeter_Colocalisation&quot; is not found in the input table.%%00010The column &quot;SEM Perimeter_Colocalisation&quot; is not found in the input table.%%00010The column &quot;Mean Distance to Nucleus&quot; is not found in the input table.%%00010The column &quot;SEM Distance&quot; is not found in the input table.%%00010The column &quot;Analysis_type (#1)&quot; is not found in the input table.%%00010The output column &quot;Area&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;SEM Area&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;Perimeter&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;SEM Perimeter&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;Area_Colocalisation&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;SEM Area_Colocalisation&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;Perimeter_Colocalisation&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;SEM Perimeter_Colocalisation&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;Mean Distance to Nucleus&quot; is marked to be a replacement, but an input with this name does not exist.%%00010The output column &quot;SEM Distance&quot; is marked to be a replacement, but an input with this name does not exist."/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaSnippetNodeFactory"/>
+<entry key="node-name" type="xstring" value="Java Snippet"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Java Snippet"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

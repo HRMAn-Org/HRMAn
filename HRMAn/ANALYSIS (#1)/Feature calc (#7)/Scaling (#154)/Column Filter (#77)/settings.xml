@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="159"/>
+<entry key="0" type="xstring" value="Sample group"/>
+<entry key="1" type="xstring" value="Pathogen Area"/>
+<entry key="2" type="xstring" value="SEM_Pathogen Area"/>
+<entry key="3" type="xstring" value="Pathogen Circularity"/>
+<entry key="4" type="xstring" value="SEM_Pathogen Circularity"/>
+<entry key="5" type="xstring" value="Pathogen Perimeter"/>
+<entry key="6" type="xstring" value="SEM_Pathogen Perimeter"/>
+<entry key="7" type="xstring" value="Pathogen Convexity"/>
+<entry key="8" type="xstring" value="SEM_Pathogen Convexity"/>
+<entry key="9" type="xstring" value="Pathogen Extend"/>
+<entry key="10" type="xstring" value="SEM_Pathogen Extend"/>
+<entry key="11" type="xstring" value="Pathogen Diameter"/>
+<entry key="12" type="xstring" value="SEM_Pathogen Diameter"/>
+<entry key="13" type="xstring" value="Pathogen Min Fluor."/>
+<entry key="14" type="xstring" value="SEM_Pathogen Min Fluor."/>
+<entry key="15" type="xstring" value="Pathogen Max Fluor."/>
+<entry key="16" type="xstring" value="SEM_Pathogen Max Fluor."/>
+<entry key="17" type="xstring" value="Pathogen Mean Fluor."/>
+<entry key="18" type="xstring" value="SEM_Pathogen Mean Fluor."/>
+<entry key="19" type="xstring" value="Pathogen Geometric Mean Fluor."/>
+<entry key="20" type="xstring" value="SEM_Pathogen Geometric Mean Fluor."/>
+<entry key="21" type="xstring" value="Pathogen Sum Fluor."/>
+<entry key="22" type="xstring" value="SEM_Pathogen Sum Fluor."/>
+<entry key="23" type="xstring" value="####################"/>
+<entry key="24" type="xstring" value="#Cells"/>
+<entry key="25" type="xstring" value="#Vacuoles"/>
+<entry key="26" type="xstring" value="#Pathogens"/>
+<entry key="27" type="xstring" value="Vacuole:cell_ratio"/>
+<entry key="28" type="xstring" value="SEM_Vacuole:cell_ratio"/>
+<entry key="29" type="xstring" value="Pathogen Load"/>
+<entry key="30" type="xstring" value="SEM_Pathogen Load"/>
+<entry key="31" type="xstring" value="%Infected"/>
+<entry key="32" type="xstring" value="SEM_%Infected"/>
+<entry key="33" type="xstring" value="Count Wells"/>
+<entry key="34" type="xstring" value="#####################"/>
+<entry key="35" type="xstring" value="uninfected"/>
+<entry key="36" type="xstring" value="SEM_uninfected"/>
+<entry key="37" type="xstring" value="N_uninfected"/>
+<entry key="38" type="xstring" value="1 vac/cell"/>
+<entry key="39" type="xstring" value="SEM_1 vac/cell"/>
+<entry key="40" type="xstring" value="N_1 vac/cell"/>
+<entry key="41" type="xstring" value="2 vacs/cell"/>
+<entry key="42" type="xstring" value="SEM_2 vacs/cell"/>
+<entry key="43" type="xstring" value="N_2 vacs/cell"/>
+<entry key="44" type="xstring" value="3 vacs/cell"/>
+<entry key="45" type="xstring" value="SEM_3 vacs/cell"/>
+<entry key="46" type="xstring" value="N_3 vacs/cell"/>
+<entry key="47" type="xstring" value="4 vacs/cell"/>
+<entry key="48" type="xstring" value="SEM_4 vacs/cell"/>
+<entry key="49" type="xstring" value="N_4 vacs/cell"/>
+<entry key="50" type="xstring" value="5 or more vacs/cell"/>
+<entry key="51" type="xstring" value="SEM_5 or more vacs/cell"/>
+<entry key="52" type="xstring" value="N_5 or more vacs/cell"/>
+<entry key="53" type="xstring" value="Sum_Infection"/>
+<entry key="54" type="xstring" value="######################"/>
+<entry key="55" type="xstring" value="%Replicating"/>
+<entry key="56" type="xstring" value="SEM_%Replicating"/>
+<entry key="57" type="xstring" value="###################"/>
+<entry key="58" type="xstring" value="1/ vac"/>
+<entry key="59" type="xstring" value="SEM_1/ vac"/>
+<entry key="60" type="xstring" value="N_1/ vac"/>
+<entry key="61" type="xstring" value="2/ vac"/>
+<entry key="62" type="xstring" value="SEM_2/ vac"/>
+<entry key="63" type="xstring" value="N_2/ vac"/>
+<entry key="64" type="xstring" value="4/ vac"/>
+<entry key="65" type="xstring" value="SEM_4/ vac"/>
+<entry key="66" type="xstring" value="N_4/ vac"/>
+<entry key="67" type="xstring" value="4 or more/ vac"/>
+<entry key="68" type="xstring" value="SEM_4 or more/ vac"/>
+<entry key="69" type="xstring" value="N_4 or more/ vac"/>
+<entry key="70" type="xstring" value="Sum_Replication"/>
+<entry key="71" type="xstring" value="#######################"/>
+<entry key="72" type="xstring" value="Distance to nucleus"/>
+<entry key="73" type="xstring" value="SEM_Distance to nucleus"/>
+<entry key="74" type="xstring" value="##################"/>
+<entry key="75" type="xstring" value="empty"/>
+<entry key="76" type="xstring" value="empty2"/>
+<entry key="77" type="xstring" value="#Recruitment_1"/>
+<entry key="78" type="xstring" value="#Recruitment_2"/>
+<entry key="79" type="xstring" value="#Co-recruitment"/>
+<entry key="80" type="xstring" value="################"/>
+<entry key="81" type="xstring" value="%Cells recruiting"/>
+<entry key="82" type="xstring" value="SEM_%Cells recruiting"/>
+<entry key="83" type="xstring" value="N_%Cells recruiting"/>
+<entry key="84" type="xstring" value="%Cells recruiting Stain 1"/>
+<entry key="85" type="xstring" value="SEM_%Cells recruiting Stain 1"/>
+<entry key="86" type="xstring" value="N_%Cells recruiting Stain 1"/>
+<entry key="87" type="xstring" value="%Cells recruiting Stain 2"/>
+<entry key="88" type="xstring" value="SEM_%Cells recruiting Stain 2"/>
+<entry key="89" type="xstring" value="N_%Cells recruiting Stain 2"/>
+<entry key="90" type="xstring" value="#################"/>
+<entry key="91" type="xstring" value="%Recruitment per cell"/>
+<entry key="92" type="xstring" value="SEM %Recruitment per cell"/>
+<entry key="93" type="xstring" value="N %Recruitment per cell"/>
+<entry key="94" type="xstring" value="%Recruitment per cell Stain 1"/>
+<entry key="95" type="xstring" value="SEM_%Recruitment per cell Stain 1"/>
+<entry key="96" type="xstring" value="N_%Recruitment per cell Stain 1"/>
+<entry key="97" type="xstring" value="%Recruitment per cell Stain 2"/>
+<entry key="98" type="xstring" value="SEM_%Recruitment per cell Stain 2"/>
+<entry key="99" type="xstring" value="N_%Recruitment per cell Stain 2"/>
+<entry key="100" type="xstring" value="#########################"/>
+<entry key="101" type="xstring" value="%Replicating non-recruited"/>
+<entry key="102" type="xstring" value="SEM_%Replicating non-recruited"/>
+<entry key="103" type="xstring" value="N_%Replicating non-recruited"/>
+<entry key="104" type="xstring" value="%Replicating recruited"/>
+<entry key="105" type="xstring" value="SEM_%Replicating recruited"/>
+<entry key="106" type="xstring" value="N_%Replicating recruited"/>
+<entry key="107" type="xstring" value="##########################"/>
+<entry key="108" type="xstring" value="1/ vac (non-recruited)"/>
+<entry key="109" type="xstring" value="SEM_1/ vac (non-recruited)"/>
+<entry key="110" type="xstring" value="N_1/ vac (non-recruited)"/>
+<entry key="111" type="xstring" value="2/ vac (non-recruited)"/>
+<entry key="112" type="xstring" value="SEM_2/ vac (non-recruited)"/>
+<entry key="113" type="xstring" value="N_2/ vac (non-recruited)"/>
+<entry key="114" type="xstring" value="4/ vac (non-recruited)"/>
+<entry key="115" type="xstring" value="SEM_4/ vac (non-recruited)"/>
+<entry key="116" type="xstring" value="N_4/ vac (non-recruited)"/>
+<entry key="117" type="xstring" value="4 or more/ vac (non-recruited)"/>
+<entry key="118" type="xstring" value="SEM_4 or more/ vac (non-recruited)"/>
+<entry key="119" type="xstring" value="N_4 or more/ vac (non-recruited)"/>
+<entry key="120" type="xstring" value="Sum non-recruited"/>
+<entry key="121" type="xstring" value="###############"/>
+<entry key="122" type="xstring" value="1/ vac (recruited)"/>
+<entry key="123" type="xstring" value="SEM_1/ vac (recruited)"/>
+<entry key="124" type="xstring" value="N_1/ vac (recruited)"/>
+<entry key="125" type="xstring" value="2/ vac (recruited)"/>
+<entry key="126" type="xstring" value="SEM_2/ vac (recruited)"/>
+<entry key="127" type="xstring" value="N_2/ vac (recruited)"/>
+<entry key="128" type="xstring" value="4/ vac (recruited)"/>
+<entry key="129" type="xstring" value="SEM_4/ vac (recruited)"/>
+<entry key="130" type="xstring" value="N_4/ vac (recruited)"/>
+<entry key="131" type="xstring" value="4 or more/ vac (recruited)"/>
+<entry key="132" type="xstring" value="SEM_4 or more/ vac (recruited)"/>
+<entry key="133" type="xstring" value="N_4 or more/ vac (recruited)"/>
+<entry key="134" type="xstring" value="Sum recruited"/>
+<entry key="135" type="xstring" value="Mean Fluorescence Coat Stain1"/>
+<entry key="136" type="xstring" value="SEM_Mean Fluorescence Coat Stain1"/>
+<entry key="137" type="xstring" value="N_Mean Fluorescence Coat Stain1"/>
+<entry key="138" type="xstring" value="Max Fluorescence Coat Stain1"/>
+<entry key="139" type="xstring" value="SEM_Max Fluorescence Coat Stain1"/>
+<entry key="140" type="xstring" value="N_Max Fluorescence Coat Stain1"/>
+<entry key="141" type="xstring" value="Min Fluorescence Coat Stain1"/>
+<entry key="142" type="xstring" value="SEM_Min Fluorescence Coat Stain1"/>
+<entry key="143" type="xstring" value="N_Min Fluorescence Coat Stain1"/>
+<entry key="144" type="xstring" value="Distance Coat Stain1"/>
+<entry key="145" type="xstring" value="SEM_Distance Coat Stain1"/>
+<entry key="146" type="xstring" value="N_Distance Coat Stain1"/>
+<entry key="147" type="xstring" value="Mean Fluorescence Coat Stain 2"/>
+<entry key="148" type="xstring" value="SEM_Mean Fluorescence Coat Stain 2"/>
+<entry key="149" type="xstring" value="N_Mean Fluorescence Coat Stain 2"/>
+<entry key="150" type="xstring" value="Max Fluorescence Coat Stain 2"/>
+<entry key="151" type="xstring" value="SEM_Max Fluorescence Coat Stain 2"/>
+<entry key="152" type="xstring" value="N_Max Fluorescence Coat Stain 2"/>
+<entry key="153" type="xstring" value="Min Fluorescence Coat Stain 2"/>
+<entry key="154" type="xstring" value="SEM_Min Fluorescence Coat Stain 2"/>
+<entry key="155" type="xstring" value="N_Min Fluorescence Coat Stain 2"/>
+<entry key="156" type="xstring" value="Distance Coat Stain 2"/>
+<entry key="157" type="xstring" value="SEM_Distance Coat Stain 2"/>
+<entry key="158" type="xstring" value="N_Distance Coat Stain 2"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

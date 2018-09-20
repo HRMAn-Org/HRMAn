@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column_creation_mode_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="column_creation_mode" type="xstring" value="New Table"/>
+<config key="column_suffix_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="column_suffix" type="xstring" value=""/>
+<config key="column_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="column_selection">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Merged Img"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="kernels_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_kernel_selection"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="kernels" type="xstring" value="AAAAAQAAABEASQBtAGEAZwBlAEoAMQBPAGIAagBlAGMAdABFAHgAdAAwrO0ABXNyACNvcmcua25pbWUua25pcC5pbWFnZWoxLk1hY3JvU2V0dGluZwAAAAAAAAABAgAEWgAMdXNlZFRlbXBsYXRlWwAOY2FjaGVkU2V0dGluZ3N0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAEY29kZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wABmNvbmZpZ3QAEUxqYXZhL2xhbmcvQ2xhc3M7eHIAN29yZy5rbmltZS5rbmlwLmJhc2Uubm9kZXMuaW8ua2VybmVsLlNlcmlhbGl6YWJsZVNldHRpbmcAAAAAAAAAAQIAAHhwAXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAB0C3NmdW5jdGlvbiBnZXRBbGxPcGVuV2luZG93cyhyZXR1cm5UeXBlKXsKCQluYW1lcyA9IG5ld0FycmF5KG5JbWFnZXMpOyAKCQlpZHMgPSBuZXdBcnJheShuSW1hZ2VzKTsKCQlwcmludCgibnVtYmVyIG9mIG9wZW4gSW1nYWdlcyBpczogIiArIG5JbWFnZXMpOyAKCQlmb3IgKGk9MDsgaSA8IGlkcy5sZW5ndGg7IGkrKyl7IAogICAgICAgIAlzZWxlY3RJbWFnZShpKzEpOyAKICAgICAgICAJaWRzW2ldID0gZ2V0SW1hZ2VJRCgpOyAKICAgICAgICAJbmFtZXNbaV0gPSBnZXRUaXRsZSgpOyAKICAgICAgICAJcHJpbnQoaWRzW2ldICsgIiA9ICIgKyBuYW1lc1tpXSk7CgkJfQoJCWlmKHJldHVyblR5cGU9PSJpZHMiKXsKICAgICAgICAgICByZXR1cm4gaWRzOwogICAgICAgIH0KICAgICAgICBlbHNlIGlmKHJldHVyblR5cGU9PSJuYW1lcyIpewogICAgICAgICAgIHJldHVybiBuYW1lczsKICAgICAgICB9Cn0KZnVuY3Rpb24gZ2V0TWluKHgxLHgyKXsKCWlmICh4MTx4Mil7CgkJbWluID0geDE7Cgl9CgllbHNlIGlmKHgyPHgxKXsKCQltaW4gPXgyOwoJfQoJZWxzZSB7CgkJbWluID0geDE7CQoJfQoJcmV0dXJuIG1pbjsKfQoKZnVuY3Rpb24gc2VsZWN0UmluZyh4LHksZGlhbTEsZGlhbTIpewoJbWFrZU92YWwoeC1kaWFtMS8yLCB5LWRpYW0xLzIsIGRpYW0xLCBkaWFtMSk7Cglyb2lNYW5hZ2VyKCJBZGQiKTsKCXJ1bigiU2VsZWN0IE5vbmUiKTsKCW1ha2VPdmFsKHgtZGlhbTIvMiwgeS1kaWFtMi8yLCBkaWFtMiwgZGlhbTIpOwoJcm9pTWFuYWdlcigiQWRkIik7CglydW4oIlNlbGVjdCBOb25lIik7Cglyb2lNYW5hZ2VyKCJTZWxlY3QiLCBuZXdBcnJheSgwLDEpKTsKCXJvaU1hbmFnZXIoIlhPUiIpOwoJcm9pTWFuYWdlcigiRGVsZXRlIik7Cn0KZnVuY3Rpb24gZ2V0Q2VudHJvaWQoKXsKCXJ1bigiRHVwbGljYXRlLi4uIiwgIiAiKTsKCXNldEF1dG9UaHJlc2hvbGQoIkRlZmF1bHQgZGFyayIpOwoJcnVuKCJDcmVhdGUgU2VsZWN0aW9uIik7CglMaXN0LnNldE1lYXN1cmVtZW50czsKCXggPSBMaXN0LmdldFZhbHVlKCJYTSIpOwoJeSA9IExpc3QuZ2V0VmFsdWUoIllNIik7CglydW4oIkNsb3NlIik7Cgljb29yZGluYXRlcyA9IG5ld0FycmF5KHgsIHkpOwoJcmV0dXJuIGNvb3JkaW5hdGVzOwp9CgoKcnVuKCJNb250YWdlIHRvIFN0YWNrLi4uIiwgImltYWdlc19wZXJfcm93PTEgaW1hZ2VzX3Blcl9jb2x1bW49MiBib3JkZXI9MCIpOwppZEFycmF5ID0gZ2V0QWxsT3BlbldpbmRvd3MoImlkcyIpOwpzZWxlY3RJbWFnZShpZEFycmF5WzBdKTsKY2xvc2UoKTsKCnJ1bigiU3RhY2sgdG8gSW1hZ2VzIik7CgppZEFycmF5ID0gZ2V0QWxsT3BlbldpbmRvd3MoImlkcyIpOwpzZWxlY3RJbWFnZShpZEFycmF5WzBdKTsKCmNvb3JkaW5hdGVzID0gZ2V0Q2VudHJvaWQoKTsKeENlbnRyb2lkID0gY29vcmRpbmF0ZXNbMF07CnlDZW50cm9pZCA9IGNvb3JkaW5hdGVzWzFdOwoKCi8vc2V0UmVzdWx0KCJuYW1lcyIsIDAsIGlkQXJyYXkubGVuZ3RoKTsKCnNlbGVjdEltYWdlKGlkQXJyYXlbMV0pOwpyYWRpYWxTdGVwID0gMSoyOyAvLyBpbiBwaXhlbHMsICoyIGFkanVzdHMgZm9yIGRpYW1ldGVyCmdldERpbWVuc2lvbnMod2lkdGgsIGhlaWdodCwgY2hhbm5lbHMsIHNsaWNlcywgZnJhbWVzKTsKCm1heFdpZHRoID0gd2lkdGggLSBhYnMod2lkdGgvMi14Q2VudHJvaWQpOwptYXhIZWlnaHQgPSBoZWlnaHQgLSBhYnMoaGVpZ2h0LzIteUNlbnRyb2lkKTsKYXJyYXlTaXplID0gZmxvb3IoZ2V0TWluKG1heFdpZHRoLG1heEhlaWdodCkvcmFkaWFsU3RlcCk7CgoKY3VycmVudERpYW1ldGVyID0gcmFkaWFsU3RlcDsKc2V0UmVzdWx0KCJ0ZXN0IiwgMCwgY3VycmVudERpYW1ldGVyLzIpOwptYWtlT3ZhbCh4Q2VudHJvaWQtY3VycmVudERpYW1ldGVyLzIsIHlDZW50cm9pZC1jdXJyZW50RGlhbWV0ZXIvMiwgY3VycmVudERpYW1ldGVyLCBjdXJyZW50RGlhbWV0ZXIpOwpnZXRSYXdTdGF0aXN0aWNzKG5QaXhlbHMsIG1lYW4sIG1pbiwgbWF4LCBzdGQsIGhpc3RvZ3JhbSk7Ci8vYXZnUmRmQXJyYXlbMF0gPSBtZWFuCnNldFJlc3VsdCgiYXZnUmRmQXJyYXkiLCAwLCBtZWFuKTsKLy9tYXhSZGZBcnJheVswXSA9IG1heDsKc2V0UmVzdWx0KCJtYXhSZGZBcnJheSIsIDAsIG1heCk7Ci8vbWluUmRmQXJyYXlbMF0gPSBtaW47CnNldFJlc3VsdCgibWluUmRmQXJyYXkiLCAwLCBtaW4pOwovL3N0ZFJkZkFycmF5WzBdID0gc3RkOwpzZXRSZXN1bHQoInN0ZFJkZkFycmF5IiwgMCwgc3RkKTsKc2V0UmVzdWx0KCJSYWRpdXNQeCIsIDAsIGN1cnJlbnREaWFtZXRlci8yKTsKcnVuKCJTZWxlY3QgTm9uZSIpOwoKLy9pdGVyYXRlIHJpbmdzIGluIFJPSSBtYW5hZ2VyCmZvciAoaT0xO2k8YXJyYXlTaXplO2krKyl7CglwcmV2aW91c0RpYW1ldGVyID0gY3VycmVudERpYW1ldGVyOwoJY3VycmVudERpYW1ldGVyID0gY3VycmVudERpYW1ldGVyK3JhZGlhbFN0ZXA7CglzZWxlY3RSaW5nKHhDZW50cm9pZCx5Q2VudHJvaWQscHJldmlvdXNEaWFtZXRlcixjdXJyZW50RGlhbWV0ZXIpOwoJZ2V0UmF3U3RhdGlzdGljcyhuUGl4ZWxzLCBtZWFuLCBtaW4sIG1heCwgc3RkLCBoaXN0b2dyYW0pOwoJLy9hdmdSZGZBcnJheVtpXSA9IG1lYW47CglzZXRSZXN1bHQoImF2Z1JkZkFycmF5IiwgaSwgbWVhbik7CgkvL21heFJkZkFycmF5W2ldID0gbWF4OwoJc2V0UmVzdWx0KCJtYXhSZGZBcnJheSIsIGksIG1heCk7CgkvL21pblJkZkFycmF5W2ldID0gbWluOwoJc2V0UmVzdWx0KCJtaW5SZGZBcnJheSIsIGksIG1pbik7CgkvL3N0ZFJkZkFycmF5W2ldID0gc3RkOwoJc2V0UmVzdWx0KCJzdGRSZGZBcnJheSIsIGksIHN0ZCk7CglzZXRSZXN1bHQoIlJhZGl1c1B4IiwgaSwgY3VycmVudERpYW1ldGVyLzIpOwoJcnVuKCJTZWxlY3QgTm9uZSIpOwp9CnNlbGVjdEltYWdlKGlkQXJyYXlbMF0pOwpjbG9zZSgpOwp2cgAsb3JnLmtuaW1lLmtuaXAuaW1hZ2VqMS5tYWNyby5QdXJlQ29kZUlKTWFjcm8AAAAAAAAAAAAAAHhw"/>
+<config key="dim_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_dimselection"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="dim_selection">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="X"/>
+<entry key="1" type="xstring" value="Y"/>
+<entry key="2" type="xstring" value="Z"/>
+</config>
+<config key="flow_variable_controlable_code_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="flow_variable_controlable_code" type="xstring" value=""/>
+<config key="resulttable_entries_as_string_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="resulttable_entries_as_string" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.knip.imagej1.IJMacroNodeFactory"/>
+<entry key="node-name" type="xstring" value="ImageJ Macro"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME ImageJ Core Plugin"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.knip.imagej2.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="University of Konstanz"/>
+<entry key="node-bundle-version" type="xstring" value="0.11.3.v201707240823"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Image Processing - ImageJ Integration (Beta)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.knip.imagej.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME / LOCI"/>
+<entry key="node-feature-version" type="xstring" value="0.11.3.v201707240823"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="ImageJ Macro"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

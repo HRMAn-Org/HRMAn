@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="134"/>
+<entry key="0" type="xstring" value="Sample group"/>
+<entry key="1" type="xstring" value="Area"/>
+<entry key="2" type="xstring" value="SEM Area"/>
+<entry key="3" type="xstring" value="Circularity"/>
+<entry key="4" type="xstring" value="SEM Circularity"/>
+<entry key="5" type="xstring" value="Perimeter"/>
+<entry key="6" type="xstring" value="SEM Perimeter"/>
+<entry key="7" type="xstring" value="FluorescenceInt"/>
+<entry key="8" type="xstring" value="SEM FluorescenceInt"/>
+<entry key="9" type="xstring" value="Count N (Vacuoles)"/>
+<entry key="10" type="xstring" value="empty"/>
+<entry key="11" type="xstring" value="1/vac"/>
+<entry key="12" type="xstring" value="SEM 1/vac"/>
+<entry key="13" type="xstring" value="Count N (1/vac)"/>
+<entry key="14" type="xstring" value="2/vac"/>
+<entry key="15" type="xstring" value="SEM 2/vac"/>
+<entry key="16" type="xstring" value="Count N (2/vac)"/>
+<entry key="17" type="xstring" value="4/vac"/>
+<entry key="18" type="xstring" value="SEM 4/vac"/>
+<entry key="19" type="xstring" value="Count N (4/vac)"/>
+<entry key="20" type="xstring" value="4 or more/vac"/>
+<entry key="21" type="xstring" value="SEM 4 or more/vac"/>
+<entry key="22" type="xstring" value="Count N (4 or more/vac)"/>
+<entry key="23" type="xstring" value="Sum"/>
+<entry key="24" type="xstring" value="empty (#1)"/>
+<entry key="25" type="xstring" value="%Replicating"/>
+<entry key="26" type="xstring" value="empty (#2)"/>
+<entry key="27" type="xstring" value="Parasites"/>
+<entry key="28" type="xstring" value="Cell Number"/>
+<entry key="29" type="xstring" value="Pathogen Load"/>
+<entry key="30" type="xstring" value="SEM_Pathogen Load"/>
+<entry key="31" type="xstring" value="empty (#3)"/>
+<entry key="32" type="xstring" value="Vacuole Number"/>
+<entry key="33" type="xstring" value="Cell Number (#1)"/>
+<entry key="34" type="xstring" value="Vacuole to cell ratio"/>
+<entry key="35" type="xstring" value="SEM_Vacuole to cell ratio"/>
+<entry key="36" type="xstring" value="empty (#4)"/>
+<entry key="37" type="xstring" value="%Infected"/>
+<entry key="38" type="xstring" value="Error"/>
+<entry key="39" type="xstring" value="Count N (Replicates)"/>
+<entry key="40" type="xstring" value="empty (#5)"/>
+<entry key="41" type="xstring" value="uninfected"/>
+<entry key="42" type="xstring" value="SEM uninfected"/>
+<entry key="43" type="xstring" value="Count N uninfected"/>
+<entry key="44" type="xstring" value="1/cell"/>
+<entry key="45" type="xstring" value="SEM 1/cell"/>
+<entry key="46" type="xstring" value="Count N 1/cell"/>
+<entry key="47" type="xstring" value="2/cell"/>
+<entry key="48" type="xstring" value="SEM 2/cell"/>
+<entry key="49" type="xstring" value="Count N 2/cell"/>
+<entry key="50" type="xstring" value="3/cell"/>
+<entry key="51" type="xstring" value="SEM 3/cell"/>
+<entry key="52" type="xstring" value="Count N 3/cell"/>
+<entry key="53" type="xstring" value="4/cell"/>
+<entry key="54" type="xstring" value="SEM 4/cell"/>
+<entry key="55" type="xstring" value="Count N 4/cell"/>
+<entry key="56" type="xstring" value="5 or more/cell"/>
+<entry key="57" type="xstring" value="SEM 5 or more/cell"/>
+<entry key="58" type="xstring" value="Count N 5 or more/cell"/>
+<entry key="59" type="xstring" value="Sum (#1)"/>
+<entry key="60" type="xstring" value="empty (#6)"/>
+<entry key="61" type="xstring" value="Vacuoles"/>
+<entry key="62" type="xstring" value="Acidified Vacuoles"/>
+<entry key="63" type="xstring" value="%Acidified Vacuoles"/>
+<entry key="64" type="xstring" value="empty (#7)"/>
+<entry key="65" type="xstring" value="Area_Colocalisation"/>
+<entry key="66" type="xstring" value="SEM Area_Colocalisation"/>
+<entry key="67" type="xstring" value="Circularity_Colocalisation"/>
+<entry key="68" type="xstring" value="SEM Circularity_Colocalisation"/>
+<entry key="69" type="xstring" value="Perimeter_Colocalisation"/>
+<entry key="70" type="xstring" value="SEM Perimeter_Colocalisation"/>
+<entry key="71" type="xstring" value="FluorescenceInt_Colocalisation"/>
+<entry key="72" type="xstring" value="SEM FluorescenceInt_Colocalisation"/>
+<entry key="73" type="xstring" value="Count N_Colocalisation"/>
+<entry key="74" type="xstring" value="empty (#8)"/>
+<entry key="75" type="xstring" value="%Recruitment_1"/>
+<entry key="76" type="xstring" value="SEM_%Recruitment_1"/>
+<entry key="77" type="xstring" value="%Recruitment_2"/>
+<entry key="78" type="xstring" value="empty (#9)"/>
+<entry key="79" type="xstring" value="Mean_Intensity_Coat_Stain1"/>
+<entry key="80" type="xstring" value="SEM_Intensity_Coat_Stain1"/>
+<entry key="81" type="xstring" value="Mean_Radius_Coat_Stain1"/>
+<entry key="82" type="xstring" value="SEM_Radius_Coat_Stain1"/>
+<entry key="83" type="xstring" value="Max_Intensity_Coat_Stain1"/>
+<entry key="84" type="xstring" value="SEM_Max_Intensity_Coat_Stain1"/>
+<entry key="85" type="xstring" value="Mean_Intensity_Coat_Stain2"/>
+<entry key="86" type="xstring" value="SEM_Intensity_Coat_Stain2"/>
+<entry key="87" type="xstring" value="Mean_Radius_Coat_Stain2"/>
+<entry key="88" type="xstring" value="SEM_Radius_Coat_Stain2"/>
+<entry key="89" type="xstring" value="Max_Intensity_Coat_Stain2"/>
+<entry key="90" type="xstring" value="SEM_Max_Intensity_Coat_Stain2"/>
+<entry key="91" type="xstring" value="Count_N"/>
+<entry key="92" type="xstring" value="empty (#15)"/>
+<entry key="93" type="xstring" value="1/vac (recruited)"/>
+<entry key="94" type="xstring" value="SEM 1/vac (recruited)"/>
+<entry key="95" type="xstring" value="2/vac (recruited)"/>
+<entry key="96" type="xstring" value="SEM 2/vac (recruited)"/>
+<entry key="97" type="xstring" value="4/vac (recruited)"/>
+<entry key="98" type="xstring" value="SEM 4/vac (recruited)"/>
+<entry key="99" type="xstring" value="4 or more/vac (recruited)"/>
+<entry key="100" type="xstring" value="SEM 4 or more/vac (recruited)"/>
+<entry key="101" type="xstring" value="Sum (#2)"/>
+<entry key="102" type="xstring" value="empty (#10)"/>
+<entry key="103" type="xstring" value="1/vac (non-recruited)"/>
+<entry key="104" type="xstring" value="SEM 1/vac (non-recruited)"/>
+<entry key="105" type="xstring" value="2/vac (non-recruited)"/>
+<entry key="106" type="xstring" value="SEM 2/vac (non-recruited)"/>
+<entry key="107" type="xstring" value="4/vac (non-recruited)"/>
+<entry key="108" type="xstring" value="SEM 4/vac (non-recruited)"/>
+<entry key="109" type="xstring" value="4 or more/vac (non-recruited)"/>
+<entry key="110" type="xstring" value="SEM 4 or more/vac (non-recruited)"/>
+<entry key="111" type="xstring" value="Sum (#3)"/>
+<entry key="112" type="xstring" value="empty (#16)"/>
+<entry key="113" type="xstring" value="%Replicating_recruited"/>
+<entry key="114" type="xstring" value="%Replicating_non-recruited"/>
+<entry key="115" type="xstring" value="empty (#11)"/>
+<entry key="116" type="xstring" value="%Mean_recruitment_per_infected_cell_Stain1"/>
+<entry key="117" type="xstring" value="SEM_Mean_recruitment_per_infected_cell_Stain1"/>
+<entry key="118" type="xstring" value="Count N (Cells Stain 1)"/>
+<entry key="119" type="xstring" value="%Mean_recruitment_per_infected_cell_Stain2"/>
+<entry key="120" type="xstring" value="SEM_Mean_recruitment_per_infected_cell_Stain2"/>
+<entry key="121" type="xstring" value="Count N (Cells Stain 2)"/>
+<entry key="122" type="xstring" value="empty (#12)"/>
+<entry key="123" type="xstring" value="%Infected_Cells_recruiting_Stain1"/>
+<entry key="124" type="xstring" value="SEM_Infected_Cells_recruiting_Stain1"/>
+<entry key="125" type="xstring" value="Count N (Cells Stain 1) (#1)"/>
+<entry key="126" type="xstring" value="%Infected_Cells_recruiting_Stain2"/>
+<entry key="127" type="xstring" value="SEM_Infected_Cells_recruiting_Stain2"/>
+<entry key="128" type="xstring" value="Count N (Cells Stain 2) (#1)"/>
+<entry key="129" type="xstring" value="empty (#13)"/>
+<entry key="130" type="xstring" value="Mean Distance to Nucleus"/>
+<entry key="131" type="xstring" value="SEM Distance"/>
+<entry key="132" type="xstring" value="Count N Distance"/>
+<entry key="133" type="xstring" value="empty (#14)"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Analysis_type"/>
+<entry key="1" type="xstring" value="Scaling?"/>
+<entry key="2" type="xstring" value="Analysis_type (#1)"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

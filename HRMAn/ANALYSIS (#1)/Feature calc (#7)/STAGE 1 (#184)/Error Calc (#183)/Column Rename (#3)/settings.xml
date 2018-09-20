@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="all_columns">
+<config key="0">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Area))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Area"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="1">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Num Pix)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Area"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="2">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Circularity))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Circularity"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="3">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Circularity)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Circularity"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="4">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Perimeter))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Perimeter"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="5">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Perimeter)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Perimeter"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="6">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Convexity))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Convexity"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="7">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Convexity)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Convexity"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="8">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Extend))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Extend"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="9">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Extend)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Extend"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="10">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Diameter))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Diameter"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="11">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Diameter)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Diameter"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="12">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Min Fluor.))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Min Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="13">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Min)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Min Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="14">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Max Fluor.))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Max Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="15">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Max)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Max Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="16">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Mean Fluor.))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Mean Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="17">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Mean)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Mean Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="18">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Geometric Mean Fluor.))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Geometric Mean Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="19">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Geometric Mean)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Geometric Mean Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="20">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Sum Fluor.))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Sum Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="21">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Sum)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Sum Fluor."/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="22">
+<entry key="old_column_name" type="xstring" value="####################"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="23">
+<entry key="old_column_name" type="xstring" value="Sum(Sum(#Cells))"/>
+<entry key="new_column_name" type="xstring" value="#Cells"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="24">
+<entry key="old_column_name" type="xstring" value="Sum(Sum(#Vacuoles))"/>
+<entry key="new_column_name" type="xstring" value="#Vacuoles"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="25">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Vacuole:cell_ratio))"/>
+<entry key="new_column_name" type="xstring" value="Vacuole:cell_ratio"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="26">
+<entry key="old_column_name" type="xstring" value="Mean(Standard deviation(Vacuole:cell_ratio))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Vacuole:cell_ratio"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="27">
+<entry key="old_column_name" type="xstring" value="Count(Well)"/>
+<entry key="new_column_name" type="xstring" value="Count Wells"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="28">
+<entry key="old_column_name" type="xstring" value="#################### (#1)"/>
+<entry key="new_column_name" type="xstring" value="#####################"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="29">
+<entry key="old_column_name" type="xstring" value="Sum(Sum(#Pathogens))"/>
+<entry key="new_column_name" type="xstring" value="#Pathogens"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="30">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Pathogen Load))"/>
+<entry key="new_column_name" type="xstring" value="Pathogen Load"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="31">
+<entry key="old_column_name" type="xstring" value="Mean(Standard deviation(Pathogen Load))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Pathogen Load"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="32">
+<entry key="old_column_name" type="xstring" value="#################### (#2)"/>
+<entry key="new_column_name" type="xstring" value="######################"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="33">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(%Infected))"/>
+<entry key="new_column_name" type="xstring" value="%Infected"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="34">
+<entry key="old_column_name" type="xstring" value="Mean(Standard deviation(%Infected))"/>
+<entry key="new_column_name" type="xstring" value="SEM_%Infected"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="35">
+<entry key="old_column_name" type="xstring" value="#################### (#3)"/>
+<entry key="new_column_name" type="xstring" value="#######################"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="36">
+<entry key="old_column_name" type="xstring" value="uninfected"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="37">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells)"/>
+<entry key="new_column_name" type="xstring" value="SEM_uninfected"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="38">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells)"/>
+<entry key="new_column_name" type="xstring" value="N_uninfected"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="39">
+<entry key="old_column_name" type="xstring" value="1 vac/cell"/>
+<entry key="new_column_name" type="xstring" value="1 vac/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="40">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#1)"/>
+<entry key="new_column_name" type="xstring" value="SEM_1 vac/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="41">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#1)"/>
+<entry key="new_column_name" type="xstring" value="N_1 vac/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="42">
+<entry key="old_column_name" type="xstring" value="2 vacs/cell"/>
+<entry key="new_column_name" type="xstring" value="2 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="43">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#2)"/>
+<entry key="new_column_name" type="xstring" value="SEM_2 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="44">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#2)"/>
+<entry key="new_column_name" type="xstring" value="N_2 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="45">
+<entry key="old_column_name" type="xstring" value="3 vacs/cell"/>
+<entry key="new_column_name" type="xstring" value="3 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="46">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#3)"/>
+<entry key="new_column_name" type="xstring" value="SEM_3 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="47">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#3)"/>
+<entry key="new_column_name" type="xstring" value="N_3 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="48">
+<entry key="old_column_name" type="xstring" value="4 vacs/cell"/>
+<entry key="new_column_name" type="xstring" value="4 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="49">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#4)"/>
+<entry key="new_column_name" type="xstring" value="SEM_4 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="50">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#4)"/>
+<entry key="new_column_name" type="xstring" value="N_4 vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="51">
+<entry key="old_column_name" type="xstring" value="5 or more vacs/cell"/>
+<entry key="new_column_name" type="xstring" value="5 or more vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="52">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#5)"/>
+<entry key="new_column_name" type="xstring" value="SEM_5 or more vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="53">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#5)"/>
+<entry key="new_column_name" type="xstring" value="N_5 or more vacs/cell"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="54">
+<entry key="old_column_name" type="xstring" value="Sum_Infection"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="55">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(%Replicating))"/>
+<entry key="new_column_name" type="xstring" value="%Replicating"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="56">
+<entry key="old_column_name" type="xstring" value="Mean(Standard deviation(%Replicating))"/>
+<entry key="new_column_name" type="xstring" value="SEM_%Replicating"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="57">
+<entry key="old_column_name" type="xstring" value="#################### (#4)"/>
+<entry key="new_column_name" type="xstring" value="###################"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="58">
+<entry key="old_column_name" type="xstring" value="1/ vac"/>
+<entry key="new_column_name" type="xstring" value="1/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="59">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#6)"/>
+<entry key="new_column_name" type="xstring" value="SEM_1/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="60">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#6)"/>
+<entry key="new_column_name" type="xstring" value="N_1/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="61">
+<entry key="old_column_name" type="xstring" value="2/ vac"/>
+<entry key="new_column_name" type="xstring" value="2/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="62">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#7)"/>
+<entry key="new_column_name" type="xstring" value="SEM_2/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="63">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#7)"/>
+<entry key="new_column_name" type="xstring" value="N_2/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="64">
+<entry key="old_column_name" type="xstring" value="4/ vac"/>
+<entry key="new_column_name" type="xstring" value="4/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="65">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#8)"/>
+<entry key="new_column_name" type="xstring" value="SEM_4/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="66">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#8)"/>
+<entry key="new_column_name" type="xstring" value="N_4/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="67">
+<entry key="old_column_name" type="xstring" value="4 or more/ vac"/>
+<entry key="new_column_name" type="xstring" value="4 or more/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="68">
+<entry key="old_column_name" type="xstring" value="Standard deviation(%of all cells) (#9)"/>
+<entry key="new_column_name" type="xstring" value="SEM_4 or more/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="69">
+<entry key="old_column_name" type="xstring" value="Count*(%of all cells) (#9)"/>
+<entry key="new_column_name" type="xstring" value="N_4 or more/ vac"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="70">
+<entry key="old_column_name" type="xstring" value="Sum_Replication"/>
+<entry key="new_column_name" type="xstring" value="Sum_Replication"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="71">
+<entry key="old_column_name" type="xstring" value="empty (#1)"/>
+<entry key="new_column_name" type="xstring" value="empty2  "/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="72">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Distance))"/>
+<entry key="new_column_name" type="xstring" value="Distance to nucleus"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="73">
+<entry key="old_column_name" type="xstring" value="Mean(Mean(Standard deviation(Distance)))"/>
+<entry key="new_column_name" type="xstring" value="SEM_Distance to nucleus"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="74">
+<entry key="old_column_name" type="xstring" value="#################### (#5)"/>
+<entry key="new_column_name" type="xstring" value="##################"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Rename"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Rename"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
