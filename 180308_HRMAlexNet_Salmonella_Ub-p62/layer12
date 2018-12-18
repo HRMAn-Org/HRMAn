@@ -1,0 +1,61 @@
+{
+  "cacheMode" : null,
+  "iterationCount" : 0,
+  "l1ByParam" : { },
+  "l2ByParam" : { },
+  "layer" : {
+    "output" : {
+      "activationFn" : {
+        "Softmax" : { }
+      },
+      "adamMeanDecay" : "NaN",
+      "adamVarDecay" : "NaN",
+      "biasInit" : "NaN",
+      "biasLearningRate" : "NaN",
+      "dist" : null,
+      "dropOut" : "NaN",
+      "epsilon" : "NaN",
+      "gradientNormalization" : null,
+      "gradientNormalizationThreshold" : "NaN",
+      "iupdater" : null,
+      "l1" : "NaN",
+      "l1Bias" : "NaN",
+      "l2" : "NaN",
+      "l2Bias" : "NaN",
+      "layerName" : null,
+      "learningRate" : 0.0,
+      "learningRateSchedule" : null,
+      "lossFn" : {
+        "NegativeLogLikelihood" : {
+          "softmaxClipEps" : 1.0E-10
+        }
+      },
+      "lossFunction" : "NEGATIVELOGLIKELIHOOD",
+      "momentum" : "NaN",
+      "momentumSchedule" : null,
+      "nin" : 0,
+      "nout" : 3,
+      "rho" : "NaN",
+      "rmsDecay" : "NaN",
+      "updater" : null,
+      "weightInit" : "XAVIER"
+    }
+  },
+  "leakyreluAlpha" : 0.0,
+  "learningRateByParam" : { },
+  "learningRatePolicy" : "None",
+  "lrPolicyDecayRate" : 0.0,
+  "lrPolicyPower" : 0.0,
+  "lrPolicySteps" : 0.0,
+  "maxNumLineSearchIterations" : 0,
+  "miniBatch" : true,
+  "minimize" : true,
+  "numIterations" : 0,
+  "optimizationAlgo" : null,
+  "pretrain" : false,
+  "seed" : 0,
+  "stepFunction" : null,
+  "useDropConnect" : false,
+  "useRegularization" : false,
+  "variables" : [ ]
+}

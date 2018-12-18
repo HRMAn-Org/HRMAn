@@ -1,0 +1,33 @@
+{
+  "cacheMode" : null,
+  "iterationCount" : 0,
+  "l1ByParam" : { },
+  "l2ByParam" : { },
+  "layer" : {
+    "localResponseNormalization" : {
+      "alpha" : 1.0E-4,
+      "beta" : 0.75,
+      "dropOut" : "NaN",
+      "k" : 2.0,
+      "layerName" : null,
+      "n" : 5.0
+    }
+  },
+  "leakyreluAlpha" : 0.0,
+  "learningRateByParam" : { },
+  "learningRatePolicy" : "None",
+  "lrPolicyDecayRate" : 0.0,
+  "lrPolicyPower" : 0.0,
+  "lrPolicySteps" : 0.0,
+  "maxNumLineSearchIterations" : 0,
+  "miniBatch" : true,
+  "minimize" : true,
+  "numIterations" : 0,
+  "optimizationAlgo" : null,
+  "pretrain" : false,
+  "seed" : 0,
+  "stepFunction" : null,
+  "useDropConnect" : false,
+  "useRegularization" : false,
+  "variables" : [ ]
+}
