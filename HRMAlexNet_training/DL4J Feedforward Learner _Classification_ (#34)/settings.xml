@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheInMemory"/>
+</config>
+<config key="model">
+<config key="adam_var_decay_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="adam_var_decay" type="xdouble" value="0.999"/>
+<config key="distribution_lower_bound_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution_lower_bound" type="xdouble" value="0.0"/>
+<config key="use_updater_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_updater" type="xboolean" value="true"/>
+<config key="use_drop_connect_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_drop_connect" type="xboolean" value="false"/>
+<config key="gradient_normalization_threshold_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="gradient_normalization_threshold" type="xdouble" value="1.0E-9"/>
+<config key="bias_learning_rate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="bias_learning_rate" type="xdouble" value="0.1"/>
+<config key="use_seed_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_seed" type="xboolean" value="false"/>
+<config key="global_drop_out_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="global_drop_out" type="xdouble" value="0.05"/>
+<config key="use_global_learning_rate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_global_learning_rate" type="xboolean" value="true"/>
+<config key="distribution_binomial_probability_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution_binomial_probability" type="xdouble" value="0.0"/>
+<config key="use_bias_learning_rate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_bias_learning_rate" type="xboolean" value="false"/>
+<config key="distribution_binomial_trails_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution_binomial_trails" type="xint" value="1"/>
+<config key="global_weight_init_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="global_weight_init" type="xstring" value="XAVIER"/>
+<config key="training_iterations_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="training_iterations" type="xint" value="2"/>
+<config key="distribution_mean_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution_mean" type="xdouble" value="0.0"/>
+<config key="gradient_normalization_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="gradient_normalization" type="xstring" value="Clip Element Wise Absolute Value"/>
+<config key="global_learning_rate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="global_learning_rate" type="xdouble" value="0.001"/>
+<config key="max_number_line_search_iterations_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="max_number_line_search_iterations" type="xint" value="5"/>
+<config key="rms_decay_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="rms_decay" type="xdouble" value="0.01"/>
+<config key="use_bias_init_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_bias_init" type="xboolean" value="false"/>
+<config key="bias_init_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="bias_init" type="xdouble" value="0.0"/>
+<config key="distribution_std_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution_std" type="xdouble" value="0.0"/>
+<config key="momentum_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="momentum" type="xdouble" value="0.01"/>
+<config key="updater_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="updater" type="xstring" value="ADAM"/>
+<config key="momentum_after_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="momentum_after" type="xstring" value="1:0.01,2:0.001,4:0.0001"/>
+<config key="distribution_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution" type="xstring" value="UNIFORM"/>
+<config key="use_gradient_normalization_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_gradient_normalization" type="xboolean" value="false"/>
+<config key="l1_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="l1" type="xdouble" value="0.0"/>
+<config key="l2_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="l2" type="xdouble" value="5.0E-4"/>
+<config key="optimization_algorithm_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="optimization_algorithm" type="xstring" value="Stochastic Gradient Descent"/>
+<config key="distribution_upper_bound_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distribution_upper_bound" type="xdouble" value="0.0"/>
+<config key="use_regularization_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_regularization" type="xboolean" value="false"/>
+<config key="use_global_weight_init_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_global_weight_init" type="xboolean" value="false"/>
+<config key="adadelta_rho_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="adadelta_rho" type="xdouble" value="0.01"/>
+<config key="seed_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="seed" type="xint" value="1"/>
+<config key="use_finetune_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_finetune" type="xboolean" value="false"/>
+<config key="use_global_drop_out_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="use_global_drop_out" type="xboolean" value="false"/>
+<config key="adam_mean_decay_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="adam_mean_decay" type="xdouble" value="0.9"/>
+<config key="batch_size_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="batch_size" type="xint" value="180"/>
+<config key="image_size_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="image_size" type="xstring" value="100,100,2"/>
+<config key="label_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="label_column" type="xstring" value="Class"/>
+<config key="feature_column_selection2_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="feature_column_selection2">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Merged Img"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="vacuoleNumber"/>
+<entry key="1" type="xstring" value="toxoNumber"/>
+<entry key="2" type="xstring" value="recruitment"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.knip.base.data.img.ImgPlusValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="epochs_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="epochs" type="xint" value="85"/>
+<config key="loss_function_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="loss_function" type="xstring" value="Negative Log Likelihood"/>
+<config key="weight_init_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="weight_init" type="xstring" value="XAVIER"/>
+<config key="learning_rate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="learning_rate" type="xdouble" value="0.0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.ext.dl4j.base.nodes.learn.feedforward.classification.FeedforwardClassificationLearnerNodeFactory"/>
+<entry key="node-name" type="xstring" value="DL4J Feedforward Learner (Classification)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Deeplearning4J Integration"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.dl4j.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.1.v201808311614"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Deeplearning4J Integration (64bit only)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.dl4j.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.1.v201808311614"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="DL4J Feedforward Learner (Classification)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

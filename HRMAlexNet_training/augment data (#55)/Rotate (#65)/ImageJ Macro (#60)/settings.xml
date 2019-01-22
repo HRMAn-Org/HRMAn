@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheOnDisc"/>
+</config>
+<config key="model">
+<config key="column_creation_mode_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="column_creation_mode" type="xstring" value="Replace"/>
+<config key="column_suffix_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="column_suffix" type="xstring" value=""/>
+<config key="column_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="column_selection">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Merged Img"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="kernels_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_kernel_selection"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="kernels" type="xstring" value="AAAAAQAAABEASQBtAGEAZwBlAEoAMQBPAGIAagBlAGMAdABFAHgAdAAwrO0ABXNyACNvcmcua25pbWUua25pcC5pbWFnZWoxLk1hY3JvU2V0dGluZwAAAAAAAAABAgAEWgAMdXNlZFRlbXBsYXRlWwAOY2FjaGVkU2V0dGluZ3N0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAEY29kZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wABmNvbmZpZ3QAEUxqYXZhL2xhbmcvQ2xhc3M7eHIAN29yZy5rbmltZS5rbmlwLmJhc2Uubm9kZXMuaW8ua2VybmVsLlNlcmlhbGl6YWJsZVNldHRpbmcAAAAAAAAAAQIAAHhwAXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAB0AQwvL3J1bigiUm90YXRlLi4uICIsICJhbmdsZT02IGdyaWQ9MCBpbnRlcnBvbGF0aW9uPUJpY3ViaWMgc3RhY2siKTsKcnVuKCJSb3RhdGUuLi4gIiwgImFuZ2xlPTEyIGdyaWQ9MCBpbnRlcnBvbGF0aW9uPUJpY3ViaWMgc3RhY2siKTsKLy9ydW4oIlJvdGF0ZS4uLiAiLCAiYW5nbGU9MjQgZ3JpZD0wIGludGVycG9sYXRpb249QmljdWJpYyBzdGFjayIpOwovL3J1bigiUm90YXRlLi4uICIsICJhbmdsZT0zMCBncmlkPTAgaW50ZXJwb2xhdGlvbj1CaWN1YmljIHN0YWNrIik7dnIALG9yZy5rbmltZS5rbmlwLmltYWdlajEubWFjcm8uUHVyZUNvZGVJSk1hY3JvAAAAAAAAAAAAAAB4cA=="/>
+<config key="dim_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_dimselection"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="dim_selection">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="X"/>
+<entry key="1" type="xstring" value="Y"/>
+</config>
+<config key="flow_variable_controlable_code_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="flow_variable_controlable_code" type="xstring" value=""/>
+<config key="resulttable_entries_as_string_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="resulttable_entries_as_string" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.knip.imagej1.IJMacroNodeFactory"/>
+<entry key="node-name" type="xstring" value="ImageJ Macro"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME ImageJ Core Plugin"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.knip.imagej2.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="University of Konstanz"/>
+<entry key="node-bundle-version" type="xstring" value="0.11.5.v201807111030"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Image Processing - ImageJ Integration (Beta)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.knip.imagej.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME / LOCI"/>
+<entry key="node-feature-version" type="xstring" value="0.11.5.v201807111030"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="ImageJ Macro"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
